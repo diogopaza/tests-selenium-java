@@ -30,7 +30,7 @@ public class Navegadores {
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
 		//ele fecha apenas a aba que ele usou
-		//driver.close();
+		driver.close();
 		//ele fecha o browser inteiro
 		//driver.quit();
 	}
